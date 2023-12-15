@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+
+}
+
+.container {
+    background-color: aliceblue;
+    width: 335px;
+    height: 335px;
+    margin: 150px auto;
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: 'Fraunces', serif;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+
+.box {
+    width: 335px;
+    border-radius: 15px 15px 0px 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.circulo {
+    margin: auto;
+    width: 100px;
+}
+
+.image-victor {
+    border: 5px solid white;
+    width: 90px;
+    border-radius: 50px;
+    margin-top: 80px;
+    position: absolute;
+    z-index: 2;
+}
+
+.espaco {
+    padding-top: 110px;
+}
+
+.text {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 17px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 8px;
+    text-align: center;
+    color: hsl(0, 1%, 70%);
+}
+
+
+.line {
+    margin-top: 18px;
+    width: 335px;
+    border: 1px solid hsl(0, 1%, 73%);
+}
+
+span {
+    color: hsl(0, 0%, 59%);
+}
+
+.numeros {
+    display: inline-block;
+    flex-direction: row;
+    text-align: center;
+    width: 335px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
