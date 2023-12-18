@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box1 {
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 20px;
+    background: linear-gradient(#7857ff, #2e2be9);
+    color: white;
+}
+
+.circulo {
+    background: linear-gradient(#2421ca, #4e21ca3b);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 100%;
+}
+
+.setenta {
+    padding-top: 45px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.descricao {
+    padding: 0px 50px;
+}
+
+.d1 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+.box2 {
+    width: 300px;
+    height: 400px;
+    margin-top: 120px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.096);
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.summary {
+    margin-left: 20px;
+}
+
+.caixas {
+    margin-top: 15px;
+    width: 230px;
+    height: 45px;
+    display: flex;
+    gap: 5px;
+    margin-left: 35px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.pp,
+img {
+    margin-left: 10px;
+font-size: 13px;
+}
+
+p+p {
+    margin-left: 60px;
+}
+
+
+.ppp {
+    margin-left: 75px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+button {
+    width: 230px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: #303b5a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover { background: linear-gradient(#7857ff, #2e2be9);}
+
+span{color: gray;}
