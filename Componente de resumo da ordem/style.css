@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    margin-top: 40px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+img {
+    border-radius: 10px 10px 0px 0px;
+    width: 400px;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: hsl(223, 47%, 23%);
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: hsl(224, 23%, 55%);
+}
+
+strong {
+    color: hsl(223, 47%, 23%);
+
+}
+
+.song {
+    width: 300px;
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 25px;
+    background-color: rgba(228, 228, 228, 0.479);
+    border-radius: 5px;
+}
+
+.imagem2 {
+    margin-left: 20px;
+    width: 35px;
+}
+
+.letras {
+    margin: 0px;
+    padding-right: 15px;
+}
+
+a {
+    margin: 0px;
+    padding-right: 15px;
+    padding-left: 60px;
+}
+
+
+.letras1 {
+    padding-left: 15px;
+}
+
+.botao {
+    margin: auto;
+    width: 300px;
+    margin-top: 30px;
+}
+
+button {
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    border: rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.botaoprimario:hover {
+    background-color: #766CF1;
+}
+
+.botao2 {
+    margin: auto;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.botao02 {
+    background-color: rgba(255, 255, 255, 0);
+    color: gray;
+}
+
+.botao02:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.cor {
+    color: gray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #766CF1;
+}
