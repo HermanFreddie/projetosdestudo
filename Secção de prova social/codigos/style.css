@@ -1,0 +1,207 @@
+* {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'League Spartan', sans-serif;
+ 
+}
+
+
+body {
+
+    margin: 1px;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.boxprincipal {
+    display: flex;
+}
+
+.box1 {
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.box2 {
+    margin-left: 60px;
+}
+
+section {
+    width: 300px;
+}
+
+h1 {
+    padding: 0px 95px 0px 0px;
+    color: hsl(300, 43%, 22%);
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+}
+
+.sub {
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.estilo {
+    width: 350px;
+    height: 40px;
+    background-color: hsl(300, 24%, 96%);
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    color: hsl(300, 43%, 22%);
+}
+
+.espaco1 {
+    margin-left: 65px;
+}
+
+.espaco2 {
+    margin-left: 110px;
+}
+
+.comentarios {
+    display: flex;
+
+}
+
+.coment1 {
+    width: 320px;
+    height: 210px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    display: block;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.coment2 {
+    width: 320px;
+    height: 210px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.coment3 {
+    width: 320px;
+    height: 210px;
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.Verified {
+    display: flex;
+    margin: 25px 20px 0px 25px
+}
+
+.perfil {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.user {
+    margin: 0px 0px 5px 0px;
+}
+
+.texto1 {
+    align-content: center;
+    padding: 30px;
+    margin: 0px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 800px) {
+
+    body{height: 170vh;
+    }
+
+    .boxprincipal {
+        flex-direction: column;
+
+    }
+
+    .box1 {
+        margin-right: 0px;
+    
+        flex-direction: column;
+    }
+
+    .box2 {
+        margin: 0px;
+        margin-left: 15px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .titulo {
+        text-align: center;
+    }
+
+    h1 {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .sub {
+        padding-right: 0px;
+text-align: center;
+    }
+
+
+    .espaco1 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .espaco2 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .estilo {
+        width: 300px;
+        margin-left: 5px;
+    }
+
+    .comentarios {
+        flex-direction: column;
+    }
+
+    .coment1 {
+        align-items: center;
+        margin-right: 0px;
+        width: 300px;
+    }
+
+    .coment2 {
+        align-items: center;
+        margin-right: 0px;
+        width: 300px;
+    }
+
+    .coment3 {
+        align-items: center;
+        margin-right: 0px;
+        width: 300px;
+    }
+}
